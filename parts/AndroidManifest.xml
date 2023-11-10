@@ -64,12 +64,6 @@
             </intent-filter>
         </service>
 
-        <service
-            android:name=".refreshrate.RefreshService"
-            android:exported="true"
-            android:permission="RefreshService">
-        </service>
-
         <activity
             android:name=".display.DcDimmingSettingsActivity"
             android:label="@string/dc_dimming_enable_title"
