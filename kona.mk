@@ -246,10 +246,6 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     fastbootd
 
-# Fastcharge
-PRODUCT_PACKAGES += \
-    vendor.lineage.fastcharge@1.0-service.xiaomi_sm8250
-
 # Fingerprint
 PRODUCT_PACKAGES += \
     android.hardware.biometrics.fingerprint@2.3-service.xiaomi
@@ -312,10 +308,6 @@ PRODUCT_PACKAGES += \
 # Lights
 PRODUCT_PACKAGES += \
     android.hardware.light-service.xiaomi
-
-# Lineage Health
-PRODUCT_PACKAGES += \
-    vendor.lineage.health-service.default
 
 # Media
 PRODUCT_PACKAGES += \
@@ -493,10 +485,6 @@ ifeq ($(TARGET_USE_QTI_THERMAL_SERVICE),true)
 PRODUCT_PACKAGES += \
     android.hardware.thermal@2.0-service.qti
 endif
-
-# Touch
-PRODUCT_PACKAGES += \
-    vendor.lineage.touch@1.0-service.xiaomi
 
 # USB
 PRODUCT_PACKAGES += \
