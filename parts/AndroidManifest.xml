@@ -42,22 +42,6 @@
         </receiver>
 
         <service
-            android:name=".doze.DozeService"
-            android:exported="true"
-            android:permission="XiaomiDozeService">
-        </service>
-
-        <activity
-            android:name=".doze.DozeSettingsActivity"
-            android:exported="true"
-            android:label="@string/ambient_display_title">
-            <intent-filter>
-                <action android:name="org.lineageos.settings.device.DOZE_SETTINGS" />
-                <category android:name="android.intent.category.DEFAULT" />
-            </intent-filter>
-        </activity>
-
-        <service
             android:name=".display.DcDimmingTileService"
             android:exported="true"
             android:icon="@drawable/ic_dc_tile"
